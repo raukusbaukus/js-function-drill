@@ -1,0 +1,15 @@
+{
+  "name": "js-function-drill",
+  "version": "1.0.0",
+  "description": "Javascript function drills",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Marc Majcher",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
