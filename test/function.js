@@ -44,7 +44,7 @@ describe('Simple Functions', function() {
   });
 
   // define a function named 'fibArray' that returns an array containing the numbers 1, 1, 2, 3, 5, 8, 13
-  it("should contain 1, 1, 2, 3, 4, 5, 6, 13", function() {
+  it("should contain 1, 1, 2, 3, 5, 8, 13", function() {
     assert.deepEqual(key.fibArray, fn.fibArray());
   });
 
@@ -109,7 +109,7 @@ describe('Basic Functions', function() {
   });
 
   // define a function named 'sub' that takes two arguments, and subtracts the
-  //  second one from the first oddEvenObject
+  //  second one from the first
   it("should subtract two numbers", function() {
     assert.equal(1, fn.sub(6,5));
     assert.equal(-1, fn.sub(1000000,1000001));
